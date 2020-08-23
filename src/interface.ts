@@ -15,7 +15,7 @@ export interface Diary {
   type: "private" | "public";
   createdAt?: string;
   updatedAt?: string;
-  usedId?: string;
+  userId?: string;
   entryIds: string[] | null;
 }
 
