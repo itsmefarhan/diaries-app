@@ -27,3 +27,9 @@ export interface User {
   password?: string;
   diaryIds?: string[] | null;
 }
+
+// Auth Response
+export interface AuthResponse {
+  token: string;
+  user: User;
+}
